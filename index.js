@@ -23,7 +23,7 @@ const row5 = document.getElementById("row5");
 const row6 = document.getElementById("row6");
 let won = false;
 
-const word = "ouija";
+const word = "adieu";
 let count = 1;
 
 if (submitBtn && !won) {
