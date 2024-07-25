@@ -1,0 +1,131 @@
+.game-title {
+  text-align: center;
+}
+.game-ui {
+  text-align: center;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#game-interface {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid green;
+  margin: 5px;
+  background-color: royalblue;
+  min-width: 350px;
+  position: relative;
+}
+.item {
+  border: 1px solid #444;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  font-family: georgia, serif;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.row {
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+label {
+  font-family: georgia, serif;
+  font-size: 1.25rem;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  color: #444;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  transition: color 0.25s ease 0.37s;
+}
+button:hover {
+  color: white;
+  background-color: royalblue;
+  cursor: pointer;
+}
+span {
+  color: red;
+  text-align: center;
+  display: block;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+#guess1,
+#guess2,
+#guess3,
+#guess4,
+#guess5,
+#guess6 {
+  display: none;
+}
+
+#loss,
+#win {
+  border: none;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: georgia, serif;
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1527167484260-43ca4f1cc204?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+#win {
+  background-image: url("https://www.istockphoto.com/photo/congrats-letter-balloons-with-confetti-gm1446014410-484228605");
+}

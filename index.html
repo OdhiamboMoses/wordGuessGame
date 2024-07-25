@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="body-container">
+      <div class="game-title">
+        <h1>Guess the Word to win</h1>
+      </div>
+      <div class="game-ui">
+        <label for="user-guess">Enter a 5 letter word</label>
+        <input type="text" id="user-guess" maxlength="5" minlength="5" />
+        <button id="guess">Submit</button>
+        <button id="guess1">Submit</button>
+        <button id="guess2">Submit</button>
+        <button id="guess3">Submit</button>
+        <button id="guess4">Submit</button>
+        <button id="guess5">Submit</button>
+        <button id="guess6">Retry</button>
+      </div>
+      <span id="req"></span>
+      <div id="game-interface">
+        <div id="row1" class="row"></div>
+
+        <div id="row2" class="row"></div>
+
+        <div id="row3" class="row"></div>
+
+        <div id="row4" class="row"></div>
+
+        <div id="row5" class="row"></div>
+
+        <div id="row6" class="row"></div>
+      </div>
+      <div id="loss">YOU LOSE!!!! ANGUKA NAYO 😭</div>
+      <div id="win">YOU WIN!!!! 🎉</div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
