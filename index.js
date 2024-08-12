@@ -1,5 +1,5 @@
-//const library = ["break", "moses", "bring", "kamit", "glady"];
-//const randKey = Math.floor(Math.random() * library.length);
+const library = ["piney", "adieu", "flout", "coyly", "tryst"];
+const randKey = Math.floor(Math.random() * library.length);
 
 const userInput = document.getElementById("user-guess");
 const display = document.getElementById("game-interface");
@@ -23,7 +23,7 @@ const row5 = document.getElementById("row5");
 const row6 = document.getElementById("row6");
 let won = false;
 
-const word = "adieu";
+const word = library[randKey];
 let count = 1;
 
 if (submitBtn && !won) {
